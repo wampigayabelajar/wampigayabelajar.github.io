@@ -1,0 +1,11 @@
+{
+  "name": "aplikasi-gaya-belajar",
+  "version": "1.0.0",
+  "description": "Aplikasi Analisis Gaya Belajar",
+  "scripts": {
+    "build": "cp -r * public/ || xcopy /E /I /Y . public\\ && rm -rf public/public || rd /S /Q public\\public"
+  },
+  "dependencies": {
+    "firebase": "^9.15.0"
+  }
+} 

@@ -1,0 +1,24 @@
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase.json
+js/firebase-init.js
+public/js/firebase-init.js
+
+# Dependencies
+node_modules/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build
+public/ 
